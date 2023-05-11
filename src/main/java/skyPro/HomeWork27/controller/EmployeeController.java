@@ -32,7 +32,7 @@ import skyPro.HomeWork27.service.EmployeeService;
         }
 
         @GetMapping("/findAll")
-        public Collection<Employee> findAll() {
+        public Collection<Employee> findAll()  {
             return employeeService.findAll();
         }
 
